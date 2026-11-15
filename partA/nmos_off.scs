@@ -1,0 +1,16 @@
+simulator lang=spice
+.include "/data/proj/Low_power_design/tech_tsmc128nm/work/users/user002/leakage_ml/models/16nm_LP.pm"
+
+.param VDD=0.9
+.param W=32n
+.param L=16n
+
+Vd d 0 DC 'VDD'
+Vg g 0 DC 0
+Vs s 0 DC 0
+Vb b 0 DC 0
+
+M1 d g s b nmos W='W' L='L'
+
+.op
+.end

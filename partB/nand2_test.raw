@@ -1,0 +1,19 @@
+Title: (no title)
+Date: 1:23:41 AM, Sun Nov 15, 2026
+Plotname: DC Analysis `opBegin'
+Flags: real
+No. Variables:        9
+No. Points:        1
+Variables:	0	dummy	dummy
+		1	a	V plot=0 grid=0
+		2	b	V plot=0 grid=0
+		3	out	V plot=0 grid=0
+		4	VA:p	A plot=0 grid=0
+		5	VB:p	A plot=0 grid=0
+		6	Vdd:p	A plot=0 grid=0
+		7	vdd	V plot=0 grid=0
+		8	x	V plot=0 grid=0
+Values:
+ 0	0	1	0
+	0.999997775253667	-1.76384451965009e-15	2.00607639947241e-10
+	-2.01825456375227e-10	1	0.737960933041554

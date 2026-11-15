@@ -1,0 +1,13 @@
+simulator lang=spice
+.include "test.pm"
+.options gmin=1e-18 abstol=1e-18 reltol=1e-6 vntol=1e-9
+.param VDD=1.0
+Vdd vdd 0 DC 'VDD'
+VA a 0 DC 'VDD'
+VB b 0 DC 0
+Mn1 out a x 0 nmos W=64n L=16n
+Mn2 x b 0 0 nmos W=64n L=16n
+Mp1 out a vdd vdd pmos W=64n L=16n
+Mp2 out b vdd vdd pmos W=64n L=16n
+.op
+.end

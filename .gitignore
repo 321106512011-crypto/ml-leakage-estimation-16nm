@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.swp
+*.log
+partB/runs/
+development_backups/
+saved_models_old/
+saved_models_v1/
+send_to_claude.zip
+leakage_ml_final_submission.tar.gz
